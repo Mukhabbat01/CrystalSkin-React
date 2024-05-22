@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="634.187" height="475.396" viewBox="0 0 634.187 475.396">
+  <g id="_16가지_피부_타입" data-name="16가지 피부 타입" transform="translate(-460.894 -707.084)">
+    <g id="그룹_365" data-name="그룹 365" transform="translate(509.49 1008.412)">
+      <g id="그룹_360" data-name="그룹 360">
+        <path id="패스_455" data-name="패스 455" d="M-4441.214-21064v49.668c0,7.219,5.729,13.332,11.99,13.332h11.272c6.8,0,13.378,6.68,13.378,15.137s.084,95.807.084,95.807" transform="translate(4646.361 21064)" fill="none" stroke="#b985e1" stroke-width="2"/>
+        <path id="패스_453" data-name="패스 453" d="M-4767.216-21093v87.822c0,7.219,6.819,13.33,14.272,13.33h229.423c8.09,0,15.264,6.049,15.264,14.5v58.164" transform="translate(4767.216 21092.998)" fill="none" stroke="#d2c1ff" stroke-width="2"/>
+        <path id="패스_454" data-name="패스 454" d="M-4601.215-20973v11.516c0,7.217,5.044,13.33,10.557,13.33h88.225c5.985,0,11.779,6.682,11.779,15.139s.463,76.117.463,76.117" transform="translate(4711.962 21030.867)" fill="none" stroke="#d19af6" stroke-width="2"/>
+      </g>
+      <g id="그룹_362" data-name="그룹 362" transform="translate(278.036)">
+        <path id="패스_455-2" data-name="패스 455" d="M-4404.311-21064v49.668c0,7.219-5.729,13.332-11.99,13.332h-11.272c-6.8,0-13.377,6.68-13.377,15.137s.336,95.682.336,95.682" transform="translate(4458.123 21064)" fill="none" stroke="#b985e1" stroke-width="2"/>
+        <path id="패스_453-2" data-name="패스 453" d="M-4508.256-21093v87.822c0,7.219-6.819,13.33-14.272,13.33h-229.423c-8.091,0-15.264,6.049-15.264,14.5v58.289" transform="translate(4767.216 21092.998)" fill="none" stroke="#d2c1ff" stroke-width="2"/>
+        <path id="패스_454-2" data-name="패스 454" d="M-4490.654-20973v11.516c0,7.217-5.044,13.33-10.557,13.33h-88.224c-5.985,0-11.78,6.682-11.78,15.139v76.215" transform="translate(4638.866 21030.867)" fill="none" stroke="#d19af6" stroke-width="2"/>
+      </g>
+    </g>
+    <g id="DRNT" transform="translate(1000.427 825.402)">
+      <g id="사각형_749" data-name="사각형 749" transform="translate(0 0)" fill="#fff" stroke="#37abf8" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="drnt-2" data-name="drnt" transform="translate(46.77 53.969)" fill="#37abf8" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-24.822" y="0">DRNT</tspan></text>
+    </g>
+    <g id="DSPW" transform="translate(1000.427 933.308)">
+      <g id="사각형_750" data-name="사각형 750" transform="translate(0 0)" fill="#fff" stroke="#1c65e2" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="dspw-2" data-name="dspw" transform="translate(45.877 53.969)" fill="#1c65e2" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-26.45" y="0">DSPW</tspan></text>
+    </g>
+    <g id="DSPT" transform="translate(892.521 976.85)">
+      <g id="사각형_744" data-name="사각형 744" transform="translate(0 0)" fill="#fff" stroke="#354b92" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="dspt-2" data-name="dspt" transform="translate(46.663 52.969)" fill="#354b92" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-22.755" y="0">DSPT</tspan></text>
+    </g>
+    <g id="ORNW" transform="translate(784.613 922.896)">
+      <g id="사각형_742" data-name="사각형 742" transform="translate(0 0)" fill="#fff" stroke="#5a3ca7" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="OrNw-2" data-name="OrNw" transform="translate(45.038 53.969)" fill="#5a3ca7" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-27.637" y="0">ORNW</tspan></text>
+    </g>
+    <g id="ORPT" transform="translate(675.761 922.896)">
+      <g id="사각형_738" data-name="사각형 738" transform="translate(0 0)" fill="#fff" stroke="#b277e5" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="OrpT-2" data-name="OrpT" transform="translate(46.771 53.969)" fill="#b277e5" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-24.627" y="0">ORPT</tspan></text>
+    </g>
+    <g id="OSNT" transform="translate(567.854 976.85)">
+      <g id="사각형_738-2" data-name="사각형 738" transform="translate(0 0)" fill="#fff" stroke="#7664f1" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="OSNT-2" data-name="OSNT" transform="translate(46.771 53.969)" fill="#7664f1" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-24.984" y="0">OSNT</tspan></text>
+    </g>
+    <g id="DRNW" transform="translate(892.521 868.943)">
+      <g id="사각형_748" data-name="사각형 748" transform="translate(0 0)" fill="#fff" stroke="#21c8b1" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="drnw-2" data-name="drnw" transform="translate(45.93 53.022)" fill="#21c8b1" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-27.252" y="0">DRNW</tspan></text>
+    </g>
+    <g id="DSNW" transform="translate(892.521 761.037)">
+      <g id="사각형_746" data-name="사각형 746" transform="translate(0 0)" fill="#fff" stroke="#21c853" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="dsnw-2" data-name="dsnw" transform="translate(45.93 53.969)" fill="#21c853" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-27.03" y="0">DSNW</tspan></text>
+    </g>
+    <g id="ORPW" transform="translate(567.854 868.943)">
+      <g id="사각형_737" data-name="사각형 737" transform="translate(0 0)" fill="#fff" stroke="#f1637b" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="Orpw-2" data-name="Orpw" transform="translate(45.931 53.022)" fill="#f1647c" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-27.057" y="0">ORPW</tspan></text>
+    </g>
+    <g id="OSPW" transform="translate(460.894 933.308)">
+      <g id="사각형_740" data-name="사각형 740" transform="translate(0 0)" fill="#fff" stroke="#ff7eaa" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="OSpw-2" data-name="OSpw" transform="translate(45.931 53.022)" fill="#ff7eaa" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-26.835" y="0">OSPW</tspan></text>
+    </g>
+    <g id="DRPT" transform="translate(784.613 814.99)">
+      <g id="사각형_747" data-name="사각형 747" transform="translate(0 0)" fill="#fff" stroke="#6dbf45" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="drpt-2" data-name="drpt" transform="translate(44.824 53.969)" fill="#6dbf45" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-24.242" y="0">DRPT</tspan></text>
+    </g>
+    <g id="DSNT" transform="translate(784.613 707.084)">
+      <g id="사각형_745" data-name="사각형 745" transform="translate(0 0)" fill="#fff" stroke="#9dd41c" stroke-width="2">
+        <path d="M50,0H94.655a0,0,0,0,1,0,0V44.655a50,50,0,0,1-50,50H0a0,0,0,0,1,0,0V50A50,50,0,0,1,50,0Z" stroke="none"/>
+        <path d="M50,1H92.655a1,1,0,0,1,1,1V44.655a49,49,0,0,1-49,49H2a1,1,0,0,1-1-1V50A49,49,0,0,1,50,1Z" fill="none"/>
+      </g>
+      <text id="dsnt-2" data-name="dsnt" transform="translate(45.771 53.969)" fill="#9dd41c" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-24.599" y="0">DSNT</tspan></text>
+    </g>
+    <g id="DSPW-3" data-name="DSPW" transform="translate(675.761 814.99)">
+      <g id="사각형_743" data-name="사각형 743" transform="translate(0 0)" fill="#fff" stroke="#dce30c" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="dspw-4" data-name="dspw" transform="translate(44.931 53.022)" fill="#dce30c" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-26.45" y="0">DSPW</tspan></text>
+    </g>
+    <g id="ORNT" transform="translate(675.761 707.084)">
+      <g id="사각형_757" data-name="사각형 757" transform="translate(0 0)" fill="#fff" stroke="#ffb507" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="OrNT-2" data-name="OrNT" transform="translate(45.824 53.969)" fill="#ffb507" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-25.207" y="0">ORNT</tspan></text>
+    </g>
+    <g id="OSNW" transform="translate(567.854 761.037)">
+      <g id="사각형_736" data-name="사각형 736" transform="translate(0 0)" fill="#fff" stroke="#ff9d6a" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="OSNw-2" data-name="OSNw" transform="translate(45.931 53.969)" fill="#ff9d6a" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-27.415" y="0">OSNW</tspan></text>
+    </g>
+    <g id="OSPT" transform="translate(460.894 825.402)">
+      <g id="사각형_739" data-name="사각형 739" transform="translate(0 0)" fill="#fff" stroke="#faa" stroke-width="2">
+        <path d="M0,0H44.655a50,50,0,0,1,50,50V94.655a0,0,0,0,1,0,0H50a50,50,0,0,1-50-50V0A0,0,0,0,1,0,0Z" stroke="none"/>
+        <path d="M2,1H44.655a49,49,0,0,1,49,49V92.655a1,1,0,0,1-1,1H50a49,49,0,0,1-49-49V2A1,1,0,0,1,2,1Z" fill="none"/>
+      </g>
+      <text id="OSpT-2" data-name="OSpT" transform="translate(44.824 53.969)" fill="#faa" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="-24.404" y="0">OSPT</tspan></text>
+    </g>
+  </g>
+</svg>

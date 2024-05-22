@@ -1,0 +1,46 @@
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F3FC;
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 60%;
+  }
+  
+  .links {
+    margin-top: 20px;
+  }
+  
+  .link-button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #AA83FF;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+
+  }
+  .main-page h1 {
+    font-size: 3.5em;
+    font-family: Heebo, "Noto Sans KR", sans-serif;
+    font-weight: 700;
+  }
+  .main-page p{
+    font-size: 1.5em;
+    font-family: Heebo, "Noto Sans KR", sans-serif;
+  }
+  
+  .link-button:hover {
+    background-color: #8F6CCF;
+  }
+  
+  .image-container {
+    max-width: 305%;
+  }
+  
+  

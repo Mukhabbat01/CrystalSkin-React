@@ -1,0 +1,25 @@
+
+.navbar-container {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  border-bottom: 1px solid #ccc; 
+}
+
+
+.navbar-brand img {
+  cursor: pointer;
+  margin-left: 20px; 
+}
+
+
+.navbar-nav .nav-link {
+  color: #333;
+  margin-right: 30px;
+  font-weight: bold;
+}
+
+
+.navbar-nav .nav-link.active {
+  color: #007bff;
+}
