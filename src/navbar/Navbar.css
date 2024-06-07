@@ -1,4 +1,3 @@
-
 .navbar-container {
   display: flex; 
   justify-content: space-between; 
@@ -6,20 +5,39 @@
   border-bottom: 1px solid #ccc; 
 }
 
-
 .navbar-brand img {
   cursor: pointer;
   margin-left: 20px; 
 }
 
-
 .navbar-nav .nav-link {
   color: #333;
   margin-right: 30px;
+  font-size: 18px;
   font-weight: bold;
+  transition: color 0.3s;
+  text-decoration: none; /* 밑줄 제거 */
 }
 
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
 
 .navbar-nav .nav-link.active {
   color: #007bff;
+}
+
+.login-link {
+  background: linear-gradient(45deg, #14F6DB, #35CEBC);
+  color: white !important;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.3s;
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.login-link:hover {
+  background: linear-gradient(45deg, #9D92F4, #BAB3F6);
+  transform: scale(1.05);
+  color: white !important;
 }

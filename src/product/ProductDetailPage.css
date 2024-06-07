@@ -1,0 +1,42 @@
+.product-detail-page {
+  padding: 20px 9% 120px;
+  position: absolute;
+  
+}
+
+.product-detail {
+  display: flex;
+  flex-direction: wrap;
+  gap: 40px;
+
+  
+}
+
+.product-detail-image {
+
+  border-radius: 5px;
+  max-width: 400px;
+  /* max-height: 460px; */
+
+}
+
+.product-detail-info {
+  max-width: 500px;
+  font-family:  Arial, sans-serif;
+
+
+}
+
+.product-price {
+  color: red;
+  font-weight: bold;
+  font-size: 26px;
+  font-family: Arial, sans-serif;
+}
+
+.product-des-image {
+  /* height: auto; */
+  /* padding: 260px; */
+  padding: 100px 20% 220px;
+
+}

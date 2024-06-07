@@ -6,7 +6,7 @@
     padding: 0;
     font-family: Raleway, sans-serif;
 }
-.signup-body {
+.signup-container-body {
     background: linear-gradient(90deg, #C7C5F4, #776BCC);
 }
 
@@ -22,8 +22,10 @@
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 400px;
+    max-width: 500px;
     width: 100%;
+    border-radius:20px;
+    
 }
 
 .signup-container label {
@@ -36,10 +38,10 @@
 .signup-container select, 
 .signup-container button {
     width: 100%;
-    padding: 10px;
+    padding: 16px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 20px;
 }
 
 .signup-container button {

@@ -1,0 +1,50 @@
+/* Question container styles */
+.question {
+    margin-top: 20px;
+
+}
+
+/* Question text styles */
+.question-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center; /* Center에서 left로 변경 */
+    display: flex;
+    align-items: center; /* 질문 번호와 텍스트를 수직으로 정렬 */
+}
+
+/* Question number styles */
+.question-number {
+    margin-right: 10px; /* 질문 번호와 텍스트 사이에 여백 추가 */
+    text-align: center;
+}
+
+/* Options container styles */
+.options {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    padding: 10px 12px; 
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.1s, border-color 0.1s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+/* Selected option styles */
+.option.selected {
+    background-color: #7657A4;
+    color: white;
+}

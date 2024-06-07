@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #F2F3FC;
-    padding: 20px;
+    padding: 40px;
   }
   
   .content {
@@ -17,20 +17,21 @@
   .link-button {
     display: inline-block;
     margin: 10px;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
     color: white;
     background-color: #AA83FF;
     border-radius: 100px;
     transition: background-color 0.3s ease;
-
   }
+  
   .main-page h1 {
     font-size: 3.5em;
     font-family: Heebo, "Noto Sans KR", sans-serif;
     font-weight: 700;
   }
-  .main-page p{
+  
+  .main-page p {
     font-size: 1.5em;
     font-family: Heebo, "Noto Sans KR", sans-serif;
   }
@@ -40,7 +41,71 @@
   }
   
   .image-container {
-    max-width: 305%;
+    max-width: 60%; /* Adjust the max-width as needed */
   }
   
-  
+.types{
+     margin: 60px;
+    text-align: center;
+}
+.h3 {
+  border: 1px solid black;
+  width: 300px;
+  height: 50px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; 
+  font-weight: bold; 
+}
+
+.prdMain{
+  background-color: #F2F3FC;
+
+}
+/* .prdMain{ */
+  /* text-align: center; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center;
+  background-color: #F2F3FC;
+  padding: 40px;
+
+} */
+
+.prd-button{
+    display: inline-block;
+    margin: 10px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #14F6DB, #35CEBC);
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.prd-button:hover {
+  background: linear-gradient(45deg, #35CEBC, #14F6DB);
+  transform: scale(1.05);
+}
+
+.space{
+  padding: 30px;
+}
+
+
+.video-button{
+  display: inline-block;
+  margin: 10px;
+  padding: 15px 30px;
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(45deg, #9D92F4, #BAB3F6);
+  border-radius: 100px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.video-button:hover {
+  background: linear-gradient(45deg, #BAB3F6, #9D92F4);
+transform: scale(1.05);
+}

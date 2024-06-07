@@ -1,0 +1,145 @@
+/* BalanceTest.css */
+
+/* General styles */
+.body  {
+    font-family: Arial, sans-serif;
+    background-color: #F5F6FB;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Container for the entire test */
+.balance-test-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+
+/* Title styles */
+.balance-test-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #6d28d9; /* Purple color */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Question container styles */
+.question-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+/* Question number styles */
+.question-number {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6d28d9; /* Purple color */
+    margin-right: 10px;
+    text-align: center;
+}
+
+/* Answer options styles */
+.answers .option {
+    display: block;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.answers .option:hover {
+    background-color: #f0f0f0;
+    border-color: #ccc;
+}
+
+/* Submit button styles */
+.submit-button {
+    display: block;
+    width: 30%;
+    padding: 10px;
+    background-color: #7657A4; /* Purple color */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    text-align: center; /* 버튼 내부 텍스트 중앙 정렬 */
+    margin: 20px auto 0 auto; /* 상단 여백 및 중앙 정렬 */
+}
+
+.submit-button:hover {
+    background-color: #5b4294; /* Darker purple for hover effect */
+}
+
+
+
+  .container {
+    background-color: white;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .step {
+    flex: 1;
+    text-align: center;
+    color: #6c757d;
+  }
+  
+  .step.active {
+    color: #6a1b9a;
+  }
+  
+  .step-number {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    color: white;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .step.active .step-number {
+    background-color: #6a1b9a;
+  }
+  
+  .progress-bar {
+    position: relative;
+    height: 8px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+  }
+  
+  .progress {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #6a1b9a;
+    border-radius: 4px;
+  }
+  

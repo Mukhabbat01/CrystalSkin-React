@@ -1,11 +1,13 @@
 import axios from "axios";
 import React, { useState } from "react";
 import './Signup.css';
+import { useNavigate } from "react-router-dom";
 
 function Signup() {
     const [verificationCode, setVerificationCode] = useState('');
-    const [showVerificationInput, setShowVerificationInput] = useState(false); // 인증 번호 input의 가시성 상태
-    const [showRegisterButton, setShowRegisterButton] = useState(false); // 등록 버튼의 가시성 상태
+    const [showVerificationInput, setShowVerificationInput] = useState(false);
+    const [showRegisterButton, setShowRegisterButton] = useState(false);
+    const navigate = useNavigate();
 
     const [usrInfo, setUserInfo] = useState({
         usrId: '',
@@ -23,10 +25,12 @@ function Signup() {
             ...usrInfo,
             [name]: value
         });
-    }
+    };
 
     function signIn(event) {
         event.preventDefault();
+
+        console.log('User Info:', usrInfo);  // Debugging line
 
         axios.post('/api/userSave', {
             ...usrInfo,
@@ -34,7 +38,12 @@ function Signup() {
         })
         .then(function(response) {
             console.log(response.data);
+            if(response.data === false){
+                alert('이미 가입된 아이디입니다!')
+            }else{
             alert('회원가입이 완료되었습니다.');
+            navigate('/');
+            }
         })
         .catch(function(error) {
             console.error('회원가입시 사용자 정보 에러', error);
@@ -52,9 +61,13 @@ function Signup() {
             params: { phone: usrInfo.phone }
         })
         .then(function(response) {
-            console.log(response.data); 
-            setShowVerificationInput(true);
-            setShowRegisterButton(false); 
+            console.log(response.data);
+            if(response.data === false){
+                alert('전화번호가 이미 가입되어 있습니다!');
+                setShowRegisterButton(false);
+            } else {
+                setShowVerificationInput(true);
+            }
         })
         .catch(function(error) {
             console.error('Error sending SMS', error);
@@ -69,8 +82,10 @@ function Signup() {
         })
         .then(function(response) {
             console.log(response.data);
-            setShowRegisterButton(true); 
-            alert('인증 번호가 확인되었습니다.');
+
+                setShowRegisterButton(true);
+                alert('인증 번호가 확인되었습니다.');
+   
         })
         .catch(function(error) {
             console.error('Error verifying code', error);
@@ -80,7 +95,7 @@ function Signup() {
 
     return (
         <div className="signup-container">
-            <form onSubmit={signIn}> 
+            <form onSubmit={signIn}>
                 <label>아이디:</label> 
                 <input name="usrId" placeholder="아이디를 입력해주세요" type="text" onChange={onChangeHandling} value={usrInfo.usrId} required /><br />
                 <label>이름:</label> 
@@ -98,7 +113,7 @@ function Signup() {
                 <label>비밀번호:</label> 
                 <input name="pass" placeholder="비밀번호를 입력해주세요" type="password" onChange={onChangeHandling} value={usrInfo.pass} required /><br />
                 <label>전화번호:</label> 
-                <input name="phone" placeholder="전화번호를 입력해주세요" type="text" onChange={onChangeHandling} value={usrInfo.phone} required />
+                <input name="phone" placeholder="전화번호를 입력해주세요" type="number" onChange={onChangeHandling} value={usrInfo.phone} required />
                 <button type="button" onClick={sendVerificationCode}>인증</button><br />
                 {showVerificationInput && (
                     <>
@@ -108,7 +123,7 @@ function Signup() {
                     </>
                 )}
                 {showRegisterButton && (
-                    <button type="submit">등록</button>
+                    <button type="submit" >등록</button>
                 )}
             </form> 
         </div>
