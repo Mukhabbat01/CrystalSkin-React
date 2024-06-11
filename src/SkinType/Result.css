@@ -58,3 +58,19 @@
     color: #14F6DB; 
   }
   
+
+.skin-image{
+  width: 800px;
+  height: auto;
+  margin-left: 300px;
+}
+
+.resultType{
+  font-size: 27px;
+  text-align: center;
+  
+}
+
+.strong{
+  color: #7657A4; 
+}
