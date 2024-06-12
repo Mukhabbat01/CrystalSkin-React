@@ -1,26 +1,85 @@
-
-
-.user-info {
-    background-color: #F2F3FC;
+/* Container styling for the user info component */
+.user-info-container {
     padding: 20px;
-    margin-bottom: 20px;
+    background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.info-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 10px;
+/* Styling the table */
+.table-striped-columns {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
 }
 
-.info-item label {
+/* Adding zebra striping to the table rows */
+.table-striped-columns tbody tr:nth-of-type(odd) {
+    background-color: #e9e9e9;
+}
+
+/* Styling the table headers and cells */
+.table-striped-columns td, .table-striped-columns th {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Header styling */
+.table-striped-columns th {
+    background-color: #007bff;
+    color: #ffffff;
     font-weight: bold;
-    color: #555;
 }
 
-.info-item p {
-    margin: 0;
-    color: #777;
+/* Data cell styling */
+.table-striped-columns td {
+    background-color: #ffffff;
 }
 
+/* Individual user info styling */
+.user-info {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Styling for the user info paragraphs */
+.user-info p {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+/* Styling for individual labels and values in the table */
+.user-info td:first-child {
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+
+/* Custom button styling for SignOut component */
+button.sign-out {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    background-color: #dc3545;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.sign-out:hover {
+    background-color: #c82333;
+}

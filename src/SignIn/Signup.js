@@ -42,7 +42,7 @@ function Signup() {
                 alert('이미 가입된 아이디입니다!')
             }else{
             alert('회원가입이 완료되었습니다.');
-            navigate('/');
+            navigate('/login');
             }
         })
         .catch(function(error) {

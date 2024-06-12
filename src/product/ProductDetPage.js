@@ -37,6 +37,7 @@ function ProductDetailPage() {
   return (
     <div className="product-detail-page">
       <div className="product-detail">
+        
         {productDet.file_id && (
           <img
             src={`http://localhost:8088/uploads/${productDet.file_id}`}
@@ -46,7 +47,7 @@ function ProductDetailPage() {
         )}
         <div className="product-detail-info">
           <h1>{productDet.title}</h1>
-          <p>{productDet.des}</p>
+
           <p className="product-price">{productDet.price.toLocaleString()}원</p>
         </div>
       </div>

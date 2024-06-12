@@ -7,7 +7,7 @@
 .product-detail {
   display: flex;
   flex-direction: wrap;
-  gap: 40px;
+  gap: 80px;
 
   
 }
@@ -31,12 +31,13 @@
   color: red;
   font-weight: bold;
   font-size: 26px;
+
   font-family: Arial, sans-serif;
 }
 
 .product-des-image {
   /* height: auto; */
   /* padding: 260px; */
-  padding: 100px 20% 220px;
+  padding: 100px 14% 220px;
 
 }

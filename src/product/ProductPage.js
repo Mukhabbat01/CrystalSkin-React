@@ -89,7 +89,7 @@ function ProductPage() {
                 onClick={() => handleProductClick(product.prd_id)}
               />
             )}
-            <h2 onClick={() => handleProductClick(product.prd_id)}>{product.title}</h2>
+            <h2 className="prdTitle" onClick={() => handleProductClick(product.prd_id)}>{product.title}</h2>
             <p className="product-main-price">{product.price.toLocaleString()}원</p>
             <button 
               onClick={() => toggleWishList(product)}

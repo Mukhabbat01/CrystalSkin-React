@@ -19,12 +19,16 @@
 }
   
   .result-item {
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     padding: 10px;
     cursor: pointer;
     width: 250px;
     border-radius:20px;
     text-align: center;
+    box-shadow: inset 0 -3em 3em rgba(0,0,0,0.0),
+        0 0  0 2px rgb(245,245,240),
+        0.3em 0.3em 1em rgba(0,0,0,0.2);
+        
 
   }
   
@@ -73,4 +77,21 @@
 
 .strong{
   color: #7657A4; 
+}
+
+
+
+.rec{
+  font-size: 26px;
+  margin: 20px;
+}
+
+.recStrong{
+  color: #7657A4; 
+  font-size: 30px;
+}
+
+
+.category{
+  color: #7657A4;
 }

@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState, useEffect } from "react";
 import SignOut from "../SignIn/SignOut";
 import './UsrInfo.css'
+import Table from 'react-bootstrap/Table';
 
 function UsrInfo() {
     const [usrInfo, setUsrInfo] = useState([]);
@@ -25,20 +26,47 @@ function UsrInfo() {
     }, [accessToken]);
     
     return (
-        <div>
-            {usrInfo.map((param, index) => (
-                <div key={index} className="user-info">
-                    <p>이름: {param.usr_name}</p>
-                    
-                    <p>아이디: {param.usr_id}</p>
-                    <p>비밀번호: {param.pass}</p>
-                    <p>이메일: {param.email}</p>
-                    <p>성별: {param.gender}</p>
-                    <p>전화번호: {param.phone}</p>
-                    <p>생년월일: {param.usr_birth}</p>
-                    <p>피부 타입: {param.skin_type}</p>
-                </div>
-            ))}
+        <div className="user-info-container">
+            <Table striped="columns" className="table-striped-columns">
+                <tbody>
+                    {usrInfo.map((param, index) => (
+                        <div key={index} className="user-info">
+                            <tr>
+                                <td>이름:</td>
+                                <td>{param.usr_name}</td>
+                            </tr>
+                            <tr>
+                                <td>아이디:</td>
+                                <td>{param.usr_id}</td>
+                            </tr>
+                            <tr>
+                                <td>비밀번호:</td>
+                                <td>{param.pass}</td>
+                            </tr>
+                            <tr>
+                                <td>이메일:</td>
+                                <td>{param.email}</td>
+                            </tr>
+                            <tr>
+                                <td>성별:</td>
+                                <td>{param.gender}</td>
+                            </tr>
+                            <tr>
+                                <td>전화번호:</td>
+                                <td>{param.phone}</td>
+                            </tr>
+                            <tr>
+                                <td>생년월일:</td>
+                                <td>{param.usr_birth}</td>
+                            </tr>
+                            <tr>
+                                <td>피부 타입:</td>
+                                <td>{param.skin_type}</td>
+                            </tr>
+                        </div>
+                    ))}
+                </tbody>
+            </Table>
             <SignOut/>
         </div>
     );

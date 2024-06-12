@@ -74,13 +74,13 @@ export default function Result() {
                         />
                     )}
                     </div>
-                    <p><strong>{info.skin_type}</strong> 타입에 적합한 제품을 추천해드려요.</p>
+                    <p className="rec"><strong className="recStrong">{info.skin_type}</strong> 타입에 적합한 제품을 추천해드려요.</p>
                 </div>
             ))}
 
             {Object.keys(groupedProducts).map((category) => (
                 <div key={category} className="category-group">
-                    <h2>{category}</h2>
+                    <h2 className="category">{category}</h2>
                     <div className="result-list">
                         {groupedProducts[category].map(product => (
                             <div key={product.prd_id} className="result-item" onClick={() => handleProductClick(product.prd_id)}>

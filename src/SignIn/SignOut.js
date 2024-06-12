@@ -22,7 +22,7 @@ export default function SignOut(){
 }
     return (
         <div>
-            <button onClick={deleteUser}>회원탈퇴</button>
+            <button className="sign-out" onClick={deleteUser}>회원탈퇴</button>
         </div>
     )
 }
